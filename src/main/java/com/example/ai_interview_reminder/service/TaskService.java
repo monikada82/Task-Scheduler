@@ -57,6 +57,7 @@ public class TaskService {
     public void deleteTask(Long id) {
         taskRepository.deleteById(id);
     }
+
     public Map<String, Long> getTaskAnalytics() {
 
         Map<String, Long> stats = new HashMap<>();
