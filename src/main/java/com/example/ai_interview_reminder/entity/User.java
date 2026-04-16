@@ -1,4 +1,4 @@
-package com.example.ai_interview_reminder.auth;
+package com.example.ai_interview_reminder.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

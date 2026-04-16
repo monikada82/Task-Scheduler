@@ -1,4 +1,4 @@
-package com.example.ai_interview_reminder.auth;
+package com.example.ai_interview_reminder.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

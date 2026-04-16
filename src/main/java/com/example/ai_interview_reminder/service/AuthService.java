@@ -1,5 +1,8 @@
-package com.example.ai_interview_reminder.auth;
+package com.example.ai_interview_reminder.service;
 
+import com.example.ai_interview_reminder.security.JwtUtil;
+import com.example.ai_interview_reminder.entity.User;
+import com.example.ai_interview_reminder.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

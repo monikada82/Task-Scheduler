@@ -1,4 +1,4 @@
-package com.example.ai_interview_reminder.auth;
+package com.example.ai_interview_reminder.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

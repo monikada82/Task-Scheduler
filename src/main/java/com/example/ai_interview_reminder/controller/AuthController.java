@@ -1,5 +1,6 @@
-package com.example.ai_interview_reminder.auth;
+package com.example.ai_interview_reminder.controller;
 
+import com.example.ai_interview_reminder.service.AuthService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -25,4 +26,5 @@ public class AuthController {
                         @RequestParam String password) {
         return authService.login(username, password);
     }
+
 }

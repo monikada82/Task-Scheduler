@@ -1,5 +1,6 @@
-package com.example.ai_interview_reminder.auth;
+package com.example.ai_interview_reminder.repository;
 
+import com.example.ai_interview_reminder.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
